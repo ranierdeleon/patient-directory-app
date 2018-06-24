@@ -1,0 +1,8 @@
+---
+applications:
+- name: patient-directory-fe
+  memory: 128M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+  path: build/
+  random-route: true
